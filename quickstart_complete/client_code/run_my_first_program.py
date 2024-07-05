@@ -1,4 +1,8 @@
 from nada_dsl import *
+
+# Enable telemetry with a unique identifier
+telemetry_id = enable_telemetry("0x3199B1459117Dd7ceeE0b3dA0CE8e98Da30451b2")
+
 def nada_main():
     # Define parties
     employer = Party(name="Employer")
